@@ -1,0 +1,43 @@
+# Out-of-source build directories
+/build*/
+/cmake-build*/
+
+# Local IDE settings
+*.user
+*.user.*
+/CMakeUserPresets.json
+/.qt/
+/.idea/
+/.vscode/
+
+# In-source CMake and qmake output
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/CTestTestfile.cmake
+/Testing/
+/compile_commands.json
+.qmake.stash
+.qmake.cache
+Makefile
+Makefile.Debug
+Makefile.Release
+/debug/
+/release/
+
+# Compiler, runtime and test output
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.debug
+*.log
+/simulator.png
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
